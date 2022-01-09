@@ -1,0 +1,50 @@
+#Container
+{
+    background-color: #635a9c;
+}
+
+#Cal
+{
+    background-color: #a29ec6;
+}
+
+h1{
+    color: #f0cf9e;
+    text-decoration: underline;
+    font-size: 4vw;
+}
+
+.btn
+{
+    border-radius: 4vw;
+    font-size: 1.5vw;
+    background-color: azure;
+}
+
+.num
+{
+    color: blue;
+}
+
+.operator
+{
+    color: red;
+}
+
+#reset
+{
+    color: blueviolet;
+}
+
+#equal
+{
+    background-color: yellow;
+}
+
+#screen
+{
+    width: 1fr;
+    background-color: #b7d8d8;
+    color: #980505;
+    border-radius: 5px;
+}
