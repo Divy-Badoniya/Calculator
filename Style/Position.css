@@ -1,0 +1,39 @@
+#Container
+{
+    margin: auto;
+    width: 25vw;
+    padding-bottom: 10px;
+}
+
+h1
+{
+    align-self: center;
+}
+
+div
+{
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#Cal
+{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 10px;
+    width: 20vw;
+    padding: 10px;
+    align-self: center;
+}
+
+.btn
+{
+    border: 2px solid black;
+    height: 3vw;
+}
+
+.btn:first-child
+{
+    grid-column: 1 / span 4;
+}
